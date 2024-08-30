@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer Section</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        *{
+            text-decoration:none;
+            list-style-type: none;
+            color:white;
+            
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            gap:200px;
+            position:relative;
+            padding-left:10px;
+            border-radius:15px;
+            background-color: rgba(0, 0, 0, 0.741);
+        }
+        a{
+            line-height:40px;
+        }
+        .content4{
+            transition: 0.1 s;
+        }
+        .information4 .content4 a {
+            display:inline-block;
+            padding:0px 10px 10px 10px;
+            cursor:pointer;
+        } 
+    .content4 :hover{
+        transform:translateY(-20px);
+
+    }
+    .content3{
+            transition: 0.1 s;
+        }
+        .content3 :hover{
+        transform:translateX(10px);
+
+    }
+    .content2{
+            transition: 0.1 s;
+        }
+        .content2 :hover{
+        transform:translateX(10px);
+
+    }
+    .content1{
+            transition: 0.1 s;
+        }
+        .content1 :hover{
+        transform:translateX(10px);
+
+    }
+    .container h1{
+        position:relative;
+        top:0px;
+        
+        cursor:pointer;
+
+    }
+    .content1,.content2,.content3{
+        transition: 0.6s;
+    }
+    .content1,.content2,.content3{
+        transform:translateY(-20px);
+    }
+    .underline{
+        width:100%;
+        border-radius:3px;
+        height:5px;
+        background-color:black;
+        margin-top:8px;
+    }
+    .underline span{
+        width:15px;
+        height:5px;
+        background-color:white;
+        position:absolute;
+        left:10px;
+        border-radius:5px;
+        animation:moving 3s linear infinite;
+    }
+    @keyframes moving{
+        0%{
+            left:-15px;
+        }
+        100%{
+            left:86%;
+        }
+        
+    }
+        
+
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="container">
+                <div class="information1">
+                <h1>Company <div class="underline"><span></span></div></h1>
+                <div class="content1">
+                    <ol>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Our Services</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Affillicate Program</a></li>
+                    </ol>
+                </div>
+             </div>
+             <div class="information2">
+                <h1>Get Help<div class="underline"><span></span></div></h1>
+                <div class="content2">
+                    <ol>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">Returns</a></li>
+                        <li><a href="">Order Status</a></li>
+                        <li><a href="">Payment Options</a></li>
+                    </ol>
+                </div>
+             </div>
+             <div class="information3">
+                <h1>Online shop<div class="underline"><span></span></div></h1>
+                <div class="content3">
+                    <ol>
+                        <li><a href="">Watch</a></li>
+                        <li><a href="">Bag</a></li>
+                        <li><a href="">Shoes</a></li>
+                        <li><a href="">Dress</a></li>
+                    </ol>
+                </div>
+             </div>
+            <div class="information4">
+                <h1>Follow Us<div class="underline"><span></span></div></h1>
+                <div class="content4">
+                        <a href=""><i  id="z" class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i  id="z" class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i  id="z" class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i  id="z" class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+    </footer>
+   
+    </div>
+</body>
+</html>
